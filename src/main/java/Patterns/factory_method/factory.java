@@ -24,7 +24,7 @@ class DogFactory{
             return new Poodle();
         } else if(criteria.equals("big")){
             return new Rottweiler();
-        } else if (criteria.equals("woking")){
+        } else if (criteria.equals("working")){
             return new Husky();
         }
         return null;
